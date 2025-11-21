@@ -1,0 +1,107 @@
+\documentclass[12pt]{article}
+% === PACKAGES ===
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{cite}
+\usepackage{amsmath, amssymb}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric} 
+\usepackage{tikz-3dplot}
+\tdplotsetmaincoords{70}{110}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+% == Font setup ==
+\usepackage{newtxtext,newtxmath}
+
+% === FORMATTING ===
+\setstretch{1.25}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{INTG 215 -- Project report}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% === SECTION FORMATTING ===
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+
+% === DOCUMENT INFO (meta, pas utilisé directement) ===
+\title{Integrated Smart-Home Security Gateway for Consumer IoT Protection}
+\author{%
+Charles de Bettignies (MC GILL ID)\\
+Thomas Joliveau (MC GILL ID)\\
+Rapha\"el Lemari\'e (MC GILL ID)\\
+Tianhe Li (MC GILL ID)\\
+No\'e Manwaring--Favennec (MC GILL ID)}
+
+\date{Due Date: November 26, 2025}
+
+\begin{document}
+
+% === TITLE PAGE ===
+\begin{titlepage}
+  \thispagestyle{empty}
+  \centering
+
+  {\large McGill University -- INTG 215\par}
+  \vspace{1.5cm}
+
+  {\LARGE\bfseries Project Outline\par}
+  \vspace{0.5cm}
+
+  {\Large Integrated Smart-Home Security Gateway\\
+  for Consumer IoT Protection\par}
+
+  \vspace{2.5cm}
+
+  {\large \textbf{Team Members}\par}
+  \vspace{0.5cm}
+  {\large
+ Charles de Bettignies (MC GILL ID)\\
+Thomas Joliveau (MC GILL ID)\\
+Rapha\"el Lemari\'e (MC GILL ID)\\
+Tianhe Li (MC GILL ID)\\
+No\'e Manwaring--Favennec (MC GILL ID)\par}
+NE PAS METTRE LES ID MC GILL TANT QUE CE N'EST PAS DEMANDÉ CE DOCUMENT EST PUBLIC POUR LE MOMENT.
+  \vfill
+
+  {\large Montreal, QC\par}
+  \vspace{0.3cm}
+  {\large Due Date: November 26, 2025\par}
+
+\end{titlepage}
+
+\setcounter{page}{1}
+
+\input{sections/executivesummary.tex}
+\input{sections/backgroundandcontext.tex}
+\input{sections/problemstatementopportunityidentified.tex}
+\input{sections/proposedsolutionorinnovation.tex}
+\input{sections/marketuserresearchsummary.tex}
+\input{sections/feasibilityanalysis.tex}
+\input{sections/implementationroadmap.tex}
+\input{sections/teamrolesandcontributions.tex}
+\input{sections/challengeslimitations.tex}
+
+\newpage
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+
+\end{document}
