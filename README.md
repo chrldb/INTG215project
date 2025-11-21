@@ -1,6 +1,6 @@
 # INTG215project
 
-# Collaboration Guidelines
+## Collaboration Guidelines
 
 - **Workflow**: Create a feature branch for your changes, then open a Pull Request (PR) into `main`. Keep PRs small and focused on one topic.
 - **Scope**: Only edit the content for your assigned section (e.g., files in `sections/` or your dedicated part in `project.tex`). Avoid touching other teammates' sections unless you coordinate first.
