@@ -1,4 +1,4 @@
-# INTG215project
+# INTG215 project
 
 ## Collaboration Guidelines
 
